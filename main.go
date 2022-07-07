@@ -4,6 +4,7 @@ import (
  "log"
  "net/http"
  "os"
+ "fmt"
 )
 func main() {
  port := os.Getenv("PORT")
